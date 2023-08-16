@@ -1,6 +1,6 @@
-
-main{
-    font-family: 'Mulish', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
 }
 .tueste {
     font-family: PPEditorialNew-Ultralight;
