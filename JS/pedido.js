@@ -2,12 +2,6 @@ body.style.backgroundColor = '#DFCFB7'
 const main = d.createElement('main')
 body.appendChild(main)
 
-
-
-function calculoTotal(cafe, jugos, laminados, sandwiches, pasteleria){
-    return cafe +jugos + laminados + sandwiches + pasteleria
-}
-
 const productos = [
 
     new Producto("Espreso", 540),

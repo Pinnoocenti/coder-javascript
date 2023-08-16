@@ -54,7 +54,7 @@ uls.innerHTML = `
 link.forEach((nombre) => {
     uls.innerHTML += `
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="${currentPage === 'index.html' ? './paginas/' + nombre.href  :'./' + nombre.href }">${nombre.link}</a>
+                        <a class="nav-link text-light" href="${currentPage === 'index.html' ? './pages/' + nombre.href  :'./' + nombre.href }">${nombre.link}</a>
                     </li>
     `
 })
