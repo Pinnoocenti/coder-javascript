@@ -72,8 +72,9 @@ main{
     display: flex;
     background-color: #C1582F;
     font-size: small;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .terminar{
     width: 150px;
@@ -83,6 +84,7 @@ main{
     color: white;
     font-size: medium;
     border:#1D1D1B;
+    
 }
 .cadaProductoPedido{
     background-color: #EEE9E3;

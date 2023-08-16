@@ -71,7 +71,7 @@ function hacerTicket(e){
 
             compra+=element.price*element.cantidad
 
-            ticket.innerHTML += `<h6>Producto: ${key} Precio unitario: $ ${element.price} Cantidad: ${element.cantidad} </h6>`
+            ticket.innerHTML += `<h6>Producto: ${key} - Precio unitario: $ ${element.price} - Cantidad: ${element.cantidad} </h6>`
             
             total.appendChild(ticket)
         }
